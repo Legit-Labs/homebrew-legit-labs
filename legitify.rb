@@ -25,23 +25,4 @@ class Legitify < Formula
       end
     end
   end
-
-  on_linux do
-    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Legit-Labs/legitify/releases/download/v0.2.5/legitify_0.2.5_linux_arm64.tar.gz"
-      sha256 "efaf3d196dfcc9f600ff3bc4b1e3353647127cde5182b10e6c74d65cb199e7db"
-
-      def install
-        bin.install "legitify"
-      end
-    end
-    if Hardware::CPU.intel?
-      url "https://github.com/Legit-Labs/legitify/releases/download/v0.2.5/legitify_0.2.5_linux_amd64.tar.gz"
-      sha256 "9d67c3288b2ca790a206615c3c885db96df2246bc362f7642cdff2c7304d9a87"
-
-      def install
-        bin.install "legitify"
-      end
-    end
-  end
 end
