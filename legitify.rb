@@ -5,7 +5,6 @@
 class Legitify < Formula
   desc ""
   homepage "https://github.com/Legit-Labs/legitify"
-  version "0.2.5"
 
   on_macos do
     if Hardware::CPU.arm?
