@@ -8,8 +8,8 @@ class Legitify < Formula
 
   on_macos do
     
-    url "https://github.com/Legit-Labs/legitify/releases/download/v0.2.4/legitify_v0.2.4_darwin.tar.gz"
-    sha256 "2dd22b13294a99b299215d534f47b6e0250e27e5e7f9fddd5dc67f55fa9f98d8"
+    url "https://github.com/Legit-Labs/legitify/releases/download/v0.2.5/legitify_0.2.5_darwin_amd64.tar.gz"
+    sha256 "d1a8a1d4d587d348f152d4b848f6ebcc8850b93f44f7720b5e8ac775773e85c8"
 
     def install
       bin.install "legitify"
