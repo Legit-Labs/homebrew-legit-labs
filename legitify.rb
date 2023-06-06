@@ -8,7 +8,7 @@ class Legitify < Formula
 
   on_macos do
     
-    url "https://github.com/legit-labs/legitify/releases/download/v0.2.6/legitify_0.2.6_darwin_amd64.tar.gz"
+    url "https://legitify.legitsecurity.com/0.2.6/darwin/amd64"
     sha256 "ca6344c3ea9fa3bf18f300fa600e79a58c2e1a010e022245743c0c7dc525647f"
     version "v0.2.6"
 
