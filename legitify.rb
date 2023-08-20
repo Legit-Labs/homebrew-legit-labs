@@ -4,14 +4,14 @@ class Legitify < Formula
     homepage "https://github.com/Legit-Labs/legitify"
 
     if Hardware::CPU.intel?
-        url "https://legitify.legitsecurity.com/1.0.0/darwin/amd64.tar.gz"
-        sha256 "879bc12660635af3a891c6d6a0380741da6c0a74fe99f0175a212f7160444c7d"
-        version "1.0.0"
+        url "https://legitify.legitsecurity.com/1.0.1/darwin/amd64.tar.gz"
+        sha256 "bec5ca356681a29e659658a569472baef638503b74f67de4f391a620e5c6e284"
+        version "1.0.1"
     end 
     if Hardware::CPU.arm?
-        url "https://legitify.legitsecurity.com/1.0.0/darwin/arm64.tar.gz"
-        sha256 "ab3ea36f0eb2394e825fab41fdf57bc02e2c7f4cff9214ddc24cddb8ce603ace"
-        version "1.0.0" 
+        url "https://legitify.legitsecurity.com/1.0.1/darwin/arm64.tar.gz"
+        sha256 "6d8e182cade90431cda7a9cd475b59219cea29ffced075505596a8970b759732"
+        version "1.0.1" 
     end
 
     def install
