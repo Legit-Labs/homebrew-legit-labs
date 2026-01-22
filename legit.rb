@@ -35,3 +35,4 @@ class Legit < Formula
     assert_match "legit version", shell_output("#{bin}/legit version")
   end
 end
+
