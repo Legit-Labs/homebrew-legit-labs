@@ -4,26 +4,26 @@
 class Legit < Formula
   desc "CLI tool for scanning code with Legit Security - secrets, SCA, and SAST"
   homepage "https://www.legitsecurity.com"
-  version "1.0.76"
+  version "1.0.77"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://legit-cli.s3.amazonaws.com/legit/v#{version}/legit_#{version}_darwin_arm64.tar.gz"
-      sha256 "88cae01463cdd841bbbb68b126d003fa47baada09bc88040852050d5ade1d5a2"
+      sha256 "1acd9775624822b49eead319dab85395872142d9171993905897d291745c9768"
     else
       url "https://legit-cli.s3.amazonaws.com/legit/v#{version}/legit_#{version}_darwin_amd64.tar.gz"
-      sha256 "9a4771a879d02ab96b5c4ab36b640f0d75a9d9e6fd3a90259d0f5b5f3b905dd4"
+      sha256 "671324c1fe24192b2f1a7fa01383b6d26acf158576c37ee75e2e6c5549045541"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://legit-cli.s3.amazonaws.com/legit/v#{version}/legit_#{version}_linux_arm64.tar.gz"
-      sha256 "8449c761530edc028afc7152b4cf6161bf6b7b35074330fbfd7f80166794e539"
+      sha256 "8461816fe1e9ecc291c3dcf85fd8180648bcdbdadb6cb9fb623d276764b7e0c8"
     else
       url "https://legit-cli.s3.amazonaws.com/legit/v#{version}/legit_#{version}_linux_amd64.tar.gz"
-      sha256 "5e9dbb7f2e81081b94ffe890dc67f273dc640d644d2ace3edf03386ccbe8e82e"
+      sha256 "6ce82ea174e49e08c1a8fd8d50962099de5e64eda70364c7082e11c38f4d9dd5"
     end
   end
 
